@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0fd54f11-5d7f-4a95-885d-908d38a7a542" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Zt1qy2cbHJyhJXtXiiS4gpCsik" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\WIT28\IdeaProjects\KursSelenium\src\Cucumber\Features" />
+      <recent name="C:\Users\WIT28\IdeaProjects\KursSelenium\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MyHotelRegistrationTest">
+    <configuration name="Feature: google.search-text" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/Cucumber/Features/google.search-text.feature" />
+      <option name="GLUE" value="bdd_wykład" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="KursSelenium" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: google.search-text" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: myhotel.create-account" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/Cucumber/MyHotel/myhotel.create-account.feature" />
+      <option name="GLUE" value="bdd_wykład" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="KursSelenium" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: myhotel.create-account" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FormTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KursSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="przyklad1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="przyklad1" />
+      <option name="MAIN_CLASS_NAME" value="przyklad1.FormTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyHotelRegistrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KursSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bdd_wykład.myHotel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bdd_wykład.myHotel" />
+      <option name="MAIN_CLASS_NAME" value="bdd_wykład.myHotel.MyHotelRegistrationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyStepdefsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KursSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bdd_wykład.myHotel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bdd_wykład" />
+      <option name="MAIN_CLASS_NAME" value="bdd_wykład.MyStepdefsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MyHotelRegistrationTest" />
+        <item itemvalue="Cucumber java.Feature: myhotel.create-account" />
+        <item itemvalue="Cucumber java.Feature: google.search-text" />
+        <item itemvalue="JUnit.MyStepdefsTest" />
+        <item itemvalue="JUnit.FormTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0fd54f11-5d7f-4a95-885d-908d38a7a542" name="Default Changelist" comment="" />
+      <created>1585643771344</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585643771344</updated>
+      <workItem from="1585643777698" duration="21249000" />
+      <workItem from="1586081352655" duration="14660000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586082875841">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1586082875841" />
+    <state x="453" y="174" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585995761136">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="453" y="174" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1585995761136" />
+    <state x="0" y="420" key="#com.intellij.ide.actions.DebugLogConfigureAction" timestamp="1585731284176">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="420" key="#com.intellij.ide.actions.DebugLogConfigureAction/0.0.1366.728@0.0.1366.728" timestamp="1585731284176" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1586097316554">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586097316554" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1586097316554">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586097316554" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1586097316553">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586097316553" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1586097316554">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586097316554" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1586084311932">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586084311932" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1586084311932">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1586084311932" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1586084311932">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1586084311932" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1586084311932">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1586084311932" />
+    <state x="186" y="9" key="SettingsEditor" timestamp="1586081110199">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="186" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1586081110199" />
+    <state x="390" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1586081352076">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1586081352076" />
+    <state x="454" y="84" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585657703026">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="454" y="84" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1585657703026" />
+    <state x="247" y="103" width="871" height="554" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1586084286565">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="247" y="103" width="871" height="554" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1586084286565" />
+    <state x="435" y="294" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1586088673602">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="435" y="294" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1586088673602" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1586090099650">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1586090099650" />
+  </component>
+</project>
