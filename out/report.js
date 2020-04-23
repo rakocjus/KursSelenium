@@ -1,113 +1,204 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("myhotel.create-account.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/cucumber/features/ChangeUserInformation/add-user-address.feature");
 formatter.feature({
   "line": 1,
-  "name": "my hotel create account",
+  "name": "User adds new address",
   "description": "",
-  "id": "my-hotel-create-account",
+  "id": "user-adds-new-address",
   "keyword": "Feature"
 });
-formatter.scenario({
-  "line": 2,
-  "name": "User creates an account",
+formatter.scenarioOutline({
+  "line": 3,
+  "name": "Create new address in user\u0027s account",
   "description": "",
-  "id": "my-hotel-create-account;user-creates-an-account",
-  "type": "scenario",
-  "keyword": "Scenario"
+  "id": "user-adds-new-address;create-new-address-in-user\u0027s-account",
+  "type": "scenario_outline",
+  "keyword": "Scenario Outline"
 });
 formatter.step({
   "line": 4,
-  "name": "an open browser with https://qloapps.coderslab.pl/",
+  "name": "User is logged in to CodersLab shop",
   "keyword": "Given "
 });
 formatter.step({
   "line": 5,
-  "name": "user clicks sign in button",
+  "name": "User goes to NewAddressPage",
   "keyword": "When "
 });
 formatter.step({
   "line": 6,
-  "name": "enters emailAddress and clicks Create an account button",
+  "name": "User clicks Create new address",
   "keyword": "And "
 });
 formatter.step({
   "line": 7,
-  "name": "user fills firstName, lastName and password",
+  "name": "User fills the address form with \u003caddress\u003e, \u003ccity\u003e \u003cpostcode\u003e",
   "keyword": "And "
 });
 formatter.step({
   "line": 8,
-  "name": "user chooses Date of birth",
+  "name": "User saves changes",
   "keyword": "And "
 });
 formatter.step({
   "line": 9,
-  "name": "user clicks Register button",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 10,
-  "name": "Your account has been created message appears",
+  "name": "User sees success message",
   "keyword": "Then "
 });
 formatter.step({
+  "line": 10,
+  "name": "user confirms address data",
+  "keyword": "And "
+});
+formatter.step({
   "line": 11,
-  "name": "close google",
+  "name": "User close chrome",
+  "keyword": "And "
+});
+formatter.examples({
+  "line": 13,
+  "name": "",
+  "description": "",
+  "id": "user-adds-new-address;create-new-address-in-user\u0027s-account;",
+  "rows": [
+    {
+      "cells": [
+        "address",
+        "city",
+        "postcode"
+      ],
+      "line": 14,
+      "id": "user-adds-new-address;create-new-address-in-user\u0027s-account;;1"
+    },
+    {
+      "cells": [
+        "Testowy 16",
+        "Warsaw",
+        "02703"
+      ],
+      "line": 15,
+      "id": "user-adds-new-address;create-new-address-in-user\u0027s-account;;2"
+    }
+  ],
+  "keyword": "Examples"
+});
+formatter.scenario({
+  "line": 15,
+  "name": "Create new address in user\u0027s account",
+  "description": "",
+  "id": "user-adds-new-address;create-new-address-in-user\u0027s-account;;2",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 4,
+  "name": "User is logged in to CodersLab shop",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 5,
+  "name": "User goes to NewAddressPage",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 6,
+  "name": "User clicks Create new address",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 7,
+  "name": "User fills the address form with Testowy 16, Warsaw 02703",
+  "matchedColumns": [
+    0,
+    1,
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 8,
+  "name": "User saves changes",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 9,
+  "name": "User sees success message",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 10,
+  "name": "user confirms address data",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 11,
+  "name": "User close chrome",
   "keyword": "And "
 });
 formatter.match({
-  "location": "myHotelregistration.anOpenBrowserWithHttpsQloappsCoderslabPl()"
+  "location": "NewAddressTest.userIsLoggedInToCodersLabShop()"
 });
 formatter.result({
-  "duration": 5067578300,
+  "duration": 7701282800,
   "status": "passed"
 });
 formatter.match({
-  "location": "myHotelregistration.userClicksSignInButton()"
+  "location": "NewAddressTest.userGoesToNewAddressPage()"
 });
 formatter.result({
-  "duration": 475581400,
+  "duration": 432741700,
   "status": "passed"
 });
 formatter.match({
-  "location": "myHotelregistration.entersEmailAddressAndClicksCreateAnAccountButton()"
+  "location": "NewAddressTest.userClicksCreateNewAddress()"
 });
 formatter.result({
-  "duration": 336601800,
+  "duration": 434492100,
   "status": "passed"
 });
 formatter.match({
-  "location": "myHotelregistration.userFillsFirstNameLastNameAndPassword()"
+  "arguments": [
+    {
+      "val": "Testowy 16",
+      "offset": 33
+    },
+    {
+      "val": "Warsaw",
+      "offset": 45
+    },
+    {
+      "val": "02703",
+      "offset": 52
+    }
+  ],
+  "location": "NewAddressTest.userFillsTheAddressFormWithAddressCityPostcode(String,String,String)"
 });
 formatter.result({
-  "duration": 2347330900,
-  "status": "passed"
+  "duration": 11355400,
+  "error_message": "java.lang.NullPointerException\r\n\tat finalProject.task1.NewAddressTest.userFillsTheAddressFormWithAddressCityPostcode(NewAddressTest.java:54)\r\n\tat ✽.And User fills the address form with Testowy 16, Warsaw 02703(src/cucumber/features/ChangeUserInformation/add-user-address.feature:7)\r\n",
+  "status": "failed"
 });
 formatter.match({
-  "location": "myHotelregistration.userChoosesDateOfBirth()"
+  "location": "NewAddressTest.userSavesChanges()"
 });
 formatter.result({
-  "duration": 377201300,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
-  "location": "myHotelregistration.userClicksRegisterButton()"
+  "location": "NewAddressTest.userSeesSuccessMessage()"
 });
 formatter.result({
-  "duration": 487518900,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
-  "location": "myHotelregistration.yourAccountHasBeenCreatedMessageAppears()"
+  "location": "NewAddressTest.userConfirmsAddressData(String)"
 });
 formatter.result({
-  "duration": 70356400,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
-  "location": "myHotelregistration.closeGoogle()"
+  "location": "NewAddressTest.userCloseChrome()"
 });
 formatter.result({
-  "duration": 45700,
-  "status": "passed"
+  "status": "skipped"
 });
 });

@@ -1,4 +1,4 @@
-package bdd_wykład;
+package bdd_wykład.google;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
